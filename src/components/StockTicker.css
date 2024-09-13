@@ -1,0 +1,43 @@
+.stock-ticker {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0.5rem 0;
+  overflow: hidden;
+}
+
+.ticker {
+  display: flex;
+  animation: ticker 30s linear infinite;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.symbol {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.price {
+  margin-right: 0.5rem;
+}
+
+.change.positive {
+  color: #4caf50;
+}
+
+.change.negative {
+  color: #f44336;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
