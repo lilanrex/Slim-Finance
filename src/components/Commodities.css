@@ -1,0 +1,51 @@
+.commodities {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.commodities h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.commodities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commodities li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.commodities li:last-child {
+  border-bottom: none;
+}
+
+.commodity-name {
+  font-weight: bold;
+  flex: 2;
+}
+
+.commodity-price {
+  flex: 1;
+  text-align: right;
+}
+
+.commodity-change {
+  flex: 1;
+  text-align: right;
+}
+
+.positive {
+  color: #28a745;
+}
+
+.negative {
+  color: #dc3545;
+}

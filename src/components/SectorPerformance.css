@@ -1,0 +1,46 @@
+.sector-performance {
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+  margin-top: 20px; /* Space above the component */
+}
+
+.sector-performance h2 {
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.sector-performance ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.sector-performance li {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  padding: 10px 0; /* Padding for each list item */
+  border-bottom: 1px solid #e0e0e0; /* Light border for separation */
+}
+
+.sector-performance li:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.sector-name {
+  font-weight: bold; /* Bold text for sector names */
+  flex: 2; /* Flex grow for sector name */
+}
+
+.sector-value {
+  flex: 1; /* Flex grow for performance value */
+  text-align: right; /* Align text to the right */
+}
+
+.positive {
+  color: #28a745; /* Green color for positive performance */
+}
+
+.negative {
+  color: #dc3545; /* Red color for negative performance */
+}

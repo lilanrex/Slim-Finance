@@ -1,0 +1,55 @@
+.top-movers {
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+  margin-top: 20px; /* Space above the component */
+}
+
+.top-movers h2 {
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.top-movers .gainers,
+.top-movers .losers {
+  margin-bottom: 20px; /* Space between gainers and losers sections */
+}
+
+.top-movers ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.top-movers li {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  padding: 10px 0; /* Padding for each list item */
+  border-bottom: 1px solid #e0e0e0; /* Light border for separation */
+}
+
+.top-movers li:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.stock-symbol {
+  font-weight: bold; /* Bold text for stock symbols */
+  flex: 1; /* Flex grow for stock symbol */
+}
+
+.stock-name {
+  flex: 2; /* Flex grow for stock name */
+}
+
+.stock-change {
+  flex: 1; /* Flex grow for change value */
+  text-align: right; /* Align text to the right */
+}
+
+.positive {
+  color: #28a745; /* Green color for positive changes */
+}
+
+.negative {
+  color: #dc3545; /* Red color for negative changes */
+}

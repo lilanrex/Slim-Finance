@@ -1,0 +1,12 @@
+.news {
+    padding: 20px;
+  }
+  
+  .news h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .news .news-feed {
+    margin-top: 20px;
+  }

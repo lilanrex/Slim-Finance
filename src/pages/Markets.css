@@ -1,0 +1,12 @@
+.markets {
+    padding: 20px;
+  }
+  
+  .markets h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .markets .market-overview {
+    margin-top: 20px;
+  }
